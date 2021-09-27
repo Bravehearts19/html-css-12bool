@@ -10,13 +10,18 @@
     clear: both;
 }
 
-.box {
+.box,
+.box_double {
     background-color: dodgerblue;
     border: 1px solid white;
-    min-height: 50px;
+    min-height: 80px;
     padding: 12px;
     color: white;
     text-align: center;
+}
+
+.box_double {
+    min-height: 160px;
 }
 
 .box_nested {
@@ -28,11 +33,31 @@
     text-align: center;
 }
 
-span {
-    line-height: 32px;
-}
-
 section,
 .section_without_h {
     margin-bottom: 20px;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.justify_content_flex_end {
+    justify-content: flex-end;
+}
+
+.justify_content_space_around {
+    justify-content: space-around;
+}
+
+.justify_content_space_between {
+    justify-content: space-between;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.align_items_flex_end {
+    align-items: flex-end;
 }
