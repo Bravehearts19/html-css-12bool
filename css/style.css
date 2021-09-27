@@ -20,6 +20,12 @@
     text-align: center;
 }
 
+.box_align_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box_double {
     min-height: 160px;
 }
