@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Per il corretto funzionamento delle media query -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Link Font-Awesome -->
+        
+        <link rel="stylesheet" href="css/12_cols_responsive.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>12 columns layout</title>
+    </head>
+
+    <body>
+        <!-- Inizio header -->
+        <header></header>
+        <!-- Fine header -->
+
+        <!-- Inizio main -->
+        <main>
+            <!-- Inizio sezione "Esercizio per Casa" -->
+            <section>
+                <h2>Esercizio per Casa</h2>
+
+                <div class="row">
+                    <!-- Prima riga da visualizzare -->
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    
+                    <!-- Seconda riga da visualizzare -->
+                    <div class="col_xs_2"><div class="box"><span>col</span></div></div>
+                    <div class="col_xs_5"><div class="box"><span>col</span></div></div>
+                    <div class="col_xs_5"><div class="box"><span>col</span></div></div>
+                    
+                    <!-- Terza riga da visualizzare -->
+                    <div class="col_xs_12"><div class="box"><span>12 col</span></div></div>
+
+                    <!-- Quarta riga da visualizzare -->
+                    <div class="col_xs_2"><div class="box"><span>8 col</span></div></div>
+                    <div class="col_xs_5"><div class="box"><span>2 col</span></div></div>
+                    <div class="col_xs_5"><div class="box"><span>2 col</span></div></div>
+                    
+                    <!-- Quinta riga da visualizzare -->
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+                    <div class="col_xs_2"><div class="box"><span>2 col</span></div></div>
+                    <div class="col_xs_2"><div class="box"><span>2 col</span></div></div>
+                    <div class="col_xs_6"><div class="box"><span>6 col</span></div></div>
+                    <div class="col_xs_1"><div class="box"><span>1 col</span></div></div>
+
+                    <!-- Sesta riga da visualizzare -->
+                    <div class="col_xs_6">
+                        <div class="box row">
+                            <div class="box_nested col_xs_2"><span>Nested <br>2 col</span></div>
+                            <div class="box_nested col_xs_2"><span>Nested <br>2 col</span></div>
+                            <div class="box_nested col_xs_8"><span>Nested 8 col</span></div>
+                        </div>
+                    </div>
+                    <div class="col_xs_6">
+                        <div class="box row">
+                            <div class="box_nested col_xs_6"><span>Nested 6 col</span></div>
+                            <div class="box_nested col_xs_6"><span>Nested 6 col</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section_without_h">
+                <div class="row">
+                    <!-- Prima riga da visualizzare -->
+                    <div class="col_xs_12"><div class="box"></div></div>
+                    
+                    <!-- Seconda riga da visualizzare -->
+                    <div class="col_xs_1"><div class="box"></div></div>
+                    <div class="col_xs_11"><div class="box"></div></div>
+                
+                    <!-- Terza riga da visualizzare -->
+                    <div class="col_xs_2"><div class="box"></div></div>
+                    <div class="col_xs_10"><div class="box"></div></div>
+                
+                    <!-- Quarta riga da visualizzare -->
+                    <div class="col_xs_3"><div class="box"></div></div>
+                    <div class="col_xs_9"><div class="box"></div></div>
+                
+                    <!-- Quinta riga da visualizzare -->
+                    <div class="col_xs_4"><div class="box"></div></div>
+                    <div class="col_xs_8"><div class="box"></div></div>
+
+                    <!-- Sesta riga da visualizzare -->
+                    <div class="col_xs_5"><div class="box"></div></div>
+                    <div class="col_xs_7"><div class="box"></div></div>
+
+                    <!-- Settima riga da visualizzare -->
+                    <div class="col_xs_6"><div class="box"></div></div>
+                    <div class="col_xs_6"><div class="box"></div></div>
+                </div>
+            </div>
+            <!-- Fine sezione "Esercizio per Casa" -->
+
+            <!-- Inizio sezione "Offset" -->
+            <section>
+                <h2>Offset</h2>
+
+                <div class="row">
+                    <!-- Prima riga da visualizzare -->
+                    <div class="col_xs_1 col_xs_offset_11"><div class="box"></div></div>
+                    
+                    <!-- Seconda riga da visualizzare -->
+                    <div class="col_xs_2 col_xs_offset_10"><div class="box"></div></div>
+                    
+                    <!-- Terza riga da visualizzare -->
+                    <div class="col_xs_3 col_xs_offset_9"><div class="box"></div></div>
+                    
+                    <!-- Quarta riga da visualizzare -->
+                    <div class="col_xs_4 col_xs_offset_8"><div class="box"></div></div>
+                    
+                    <!-- Quinta riga da visualizzare -->
+                    <div class="col_xs_5 col_xs_offset_7"><div class="box"></div></div>
+                    
+                    <!-- Sesta riga da visualizzare -->
+                    <div class="col_xs_6 col_xs_offset_6"><div class="box"></div></div>
+                    
+                    <!-- Settima riga da visualizzare -->
+                    <div class="col_xs_7 col_xs_offset_5"><div class="box"></div></div>
+                    
+                    <!-- Ottava riga da visualizzare -->
+                    <div class="col_xs_8 col_xs_offset_4"><div class="box"></div></div>
+                    
+                    <!-- Nona riga da visualizzare -->
+                    <div class="col_xs_9 col_xs_offset_3"><div class="box"></div></div>
+                    
+                    <!-- Decima riga da visualizzare -->
+                    <div class="col_xs_10 col_xs_offset_2"><div class="box"></div></div>
+                    
+                    <!-- Undicesima riga da visualizzare -->
+                    <div class="col_xs_11 col_xs_offset_1"><div class="box"></div></div>
+                </div>
+            </section>
+            <!-- Fine sezione "Offset" -->
+
+            <!-- Inizio sezione "Nested" -->
+            <section>
+                <h2>Nested</h2>
+
+                
+            </section>
+            <!-- Fine sezione "Nested" -->
+
+            <!-- Inizio sezione "Alignment" -->
+            <section>
+                <h2>Alignment</h2>
+  
+                
+            </section>
+            <!-- Fine sezione "Alignment" -->
+
+            <!-- Inizio sezione "Justify Content" -->
+            <section>
+                <h2>Justify Content</h2>
+
+                <section>
+                    <h3>Space Around</h3>
+
+
+                </section>
+  
+                <section>
+                    <h3>Space Between</h3>
+
+                    
+                </section>
+            </section>
+            <!-- Fine sezione "Justify Content" -->
+        </main>
+        <!-- Fine main -->
+
+        <!-- Inizio footer -->
+        <footer></footer>
+        <!-- Fine footer -->
+    </body>
+</html>

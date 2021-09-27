@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    background-color: dodgerblue;
+    border: 1px solid white;
+    min-height: 50px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+.box_nested {
+    background-color: limegreen;
+    border: 1px solid dodgerblue;
+    height: 100%;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+span {
+    line-height: 32px;
+}
+
+section,
+.section_without_h {
+    margin-bottom: 20px;
+}
